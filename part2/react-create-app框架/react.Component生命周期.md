@@ -2,17 +2,26 @@
 
 #### Mounting(组件挂载)
 * constructor()
- <br/>构造函数，在创建组件的时候调用一次。实现constructor(props)方法，在做其他声明之前，需要调用super(props)，否则this.props会出现未定义问题。
+
+ 构造函数，在创建组件的时候调用一次。实现constructor(props)方法，在做其他声明之前，需要调用super(props)，否则this.props会出现未定义问题。
 * componentWillMount()
+
 * render()
+
 * componentDidMount()
+
 
 #### Updating(组件状态更新)
 * componentWillReceiveProps()
+
 * shouldComponentUpdate()
+
 * componentWillUpdate()
+
 * render()
+
 * componentDidUpdate()
+
 
 
 #### Unmounting(组件卸载)
